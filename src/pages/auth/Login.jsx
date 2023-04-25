@@ -49,8 +49,8 @@ function Login() {
         </div>
       </form>
 
-      <div className="bottom">
-        <Link to="/" className="forgot-password-link">
+      <div className="login-bottom">
+        <Link to="/auth/forgot-password" className="forgot-password-link">
           Forgot password?
         </Link>
         <span>
