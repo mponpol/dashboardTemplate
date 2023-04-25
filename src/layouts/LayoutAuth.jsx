@@ -1,9 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import './LayoutAuth.css';
 
 function LayoutAuth() {
   return (
-    <div>
-      LayoutAuth <Outlet />
+    <div className="layout-auth">
+      <Outlet />
     </div>
   );
 }

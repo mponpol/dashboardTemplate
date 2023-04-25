@@ -1,8 +1,17 @@
-::-webkit-scrollbar {
-  width: 0px;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 body {
   background-color: #131517;
+  box-sizing: border-box;
   color: gray;
 }
