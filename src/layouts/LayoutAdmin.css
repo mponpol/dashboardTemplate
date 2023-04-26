@@ -1,0 +1,16 @@
+.layout-admin {
+  min-height: 100vh;
+  font-size: 1.3rem;
+  padding: 1rem;
+  display: flex;
+}
+
+.admin-main {
+  width: 100%;
+}
+
+.admin-outlet {
+  background-color: green;
+  height: 90vh;
+  overflow-y: scroll;
+}
